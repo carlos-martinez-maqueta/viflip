@@ -130,3 +130,15 @@ $('.con-3').click(function(){
 $('.con-4').click(function(){
   $(".Contrato4").toggleClass('is-active');
 })
+
+
+
+
+//CLASIFICADO
+
+$('.cla-1').click(function(){
+  $(".Clasificado1").toggleClass('is-active-cla');
+})
+$('.cla-2').click(function(){
+  $(".Clasificado2").toggleClass('is-active-cla');
+})
