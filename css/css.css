@@ -1,0 +1,228 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+ 
+body{
+  background: #EAEAEA;
+}
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+ 
+ 
+/*form styles*/
+#msform {
+    width: 100%;
+    height: 100%;
+}
+#msform fieldset {
+    border: 0 none;
+    height: 100%;
+}
+#msform .containers{
+    display: flex;
+    height: 100%;
+}
+#msform .containers .container-img{
+width: 70%;
+}
+#msform .containers .container-img img {
+    max-width: 100%;
+    height: 100%;
+}
+#msform .containers .container-form{
+width: 30%;
+}
+#msform .containers .container-form .form{
+    /* width: 425px; */
+    height: 290px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 43px 50px;
+    margin: auto;
+    /* left: -165px; */
+    position: absolute;
+    box-shadow: 0px 1px 0px 1px #f7f4f482;
+    right: 10%;
+    top: 26%;
+}
+.container-form .form p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    /* opacity: 0.6; */
+    margin-bottom: 25px;
+}
+.container-form .form p span{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+.container-form h2{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 10px;
+color: #222222;
+}
+.container-form .span{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #222222;
+opacity: 0.6;
+}
+.search label{
+    position: absolute;
+    left: 65px;
+    top: 51%;
+}
+.search .input-search{
+    width: 379px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 30px 0px;
+    padding: 2px 49px 0px;
+}
+.search .input-search:focus{
+    outline: transparent;
+}
+/*buttons*/
+.previous{
+    border: 1px solid #000000 !important;
+    width: 144px;
+    background-color: white;
+    right: 33%;
+}
+.next{
+        width: 215px;
+        background: #B3C12E;
+        border:none;
+        color: #ffffff;
+          right: 15%;
+}
+.men{
+     position: absolute;
+    top: 10%;
+    left: 218px;
+    width: 300px;
+}
+.men .acti{
+    display: flex;
+}
+.men .acti h1{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+
+color: #000000;
+}
+.men .acti img{
+    position: relative;
+    top: 4px;
+    left: 15px;
+}
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+/*inputs*/
+
+/*buttons*/
+#msform .action-button {
+    position: absolute;
+    border-radius: 16px;
+    height: 56px;
+    font-size: 18px;
+    bottom: 37%;    
+}
+
+/*headings*/
+.fs-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+.fs-subtitle {
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+/*progressbar*/
+#progressbar {
+  display: none;
+  margin-bottom: 30px;
+  overflow: hidden;
+  /*CSS counters to number the steps*/
+  counter-reset: step;
+}
+#progressbar li {
+  list-style-type: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 9px;
+  width: 33.33%;
+  float: left;
+  position: relative;
+}
+#progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 20px;
+  line-height: 20px;
+  display: block;
+  font-size: 10px;
+  color: #333;
+  background: white;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: -50%;
+  top: 9px;
+  z-index: -1; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+  /*connector not needed before the first step*/
+  content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+  background: #27AE60;
+  color: white;
+}
+
+@media (max-width: 4096px){
+.men{
+  display: none;
+}
+}
+
+@media (max-width: 767px){
+.wrapper {
+    height: 1201px;
+    background: none;
+}
+}
