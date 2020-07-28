@@ -80,3 +80,53 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 });
+
+
+$('.panel-action1').click(function(){
+  $(".PanelMenu1").toggleClass('is-active');
+})
+$('.panel-action2').click(function(){
+  $(".PanelMenu2").toggleClass('is-active');
+})
+$('.PanelMenu3').click(function(){
+  $(".is-").toggleClass('is-active3');
+})
+$('.panel-action4').click(function(){
+  $(".PanelMenu4").toggleClass('is-active');
+})
+$('.panel-action5').click(function(){
+  $(".PanelMenu5").toggleClass('is-active');
+})
+$('.panel-action6').click(function(){
+  $(".PanelMenu6").toggleClass('is-active');
+})
+
+//POSICION DE LA CASA
+
+$('.po-1').click(function(){
+  $(".Position1").toggleClass('is-active');
+})
+$('.po-2').click(function(){
+  $(".Position2").toggleClass('is-active');
+})
+$('.po-3').click(function(){
+  $(".Position3").toggleClass('is-active');
+})
+$('.po-4').click(function(){
+  $(".Position4").toggleClass('is-active');
+})
+
+//DURACION CONTRATO 
+
+$('.con-1').click(function(){
+  $(".Contrato1").toggleClass('is-active');
+})
+$('.con-2').click(function(){
+  $(".Contrato2").toggleClass('is-active');
+})
+$('.con-3').click(function(){
+  $(".Contrato3").toggleClass('is-active');
+})
+$('.con-4').click(function(){
+  $(".Contrato4").toggleClass('is-active');
+})
