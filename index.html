@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/css.css">
 <style type="text/css">
   
@@ -56,6 +57,16 @@
       
     </fieldset>
     <fieldset>
+      <style type="text/css">
+        .inputs{
+
+        }
+        .inputs input,.inputs-2 input{
+              height: 48px;
+              border: 1px solid #F3F3F3;
+              box-sizing: border-box;
+        }
+      </style>
      <div class="containers">
 
         <div class="container-img">
@@ -66,9 +77,14 @@
             <p>Paso <span>2 de 17</span></p>
             <h2>Confirma tu dirección</h2>
             <span class="span">Verifica los datos de tu dirección</span>
-            <div class="search">
-              <label><img src="img/svg/search.svg"></label>
-             <input type="search" class="input-search" name="search" placeholder="Busca...">
+            <div class="inputs">
+              <input type="text" name="" placeholder="Calle">
+              <input type="text" name="" placeholder="Número">
+            </div>
+            <div class="inputs-2">
+                <input type="text" name="" placeholder="CP">
+                <input type="text" name="" placeholder="Ciudad">
+                <input type="text" name="" placeholder="País">
             </div>
           </div>
         </div>
@@ -410,8 +426,8 @@
 </form>
 </div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 <script src="js/wizard.js"></script>
 
   </body>
