@@ -323,11 +323,37 @@ box-sizing: border-box;
 border-radius: 8px !important;
 margin-right: 20px;
 }
+.option-años{
+margin:30px 0px 15px;
+}
+.option-años ul{
+display: flex;
+list-style: none;
+}
+.option-años ul li a{
+width: 50px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #F3F3F3;
+box-sizing: border-box;
+border-radius: 8px;
+margin-right: 20px; 
+}
+.option-años ul li .active{
+border:1px solid #b3c12e;
+background-color: #ffffff !important;
+color: #000000 !important;
+}
+.siguiente a{
+font-size: 19px;
+font-weight: 700;
+color: #000000;
+}
 .buttons-numer .button-active{
 border: 1px solid #BDCC31;
 }
-#section-4 .action-button{
-bottom: 23%;
+#section-4 .action-button {
+    bottom: 26%;
 }
 /*===============     SECTION 5    ======================*/
 #msform .containers .container-form .form-5{
@@ -372,6 +398,48 @@ opacity: inherit;
 }
 #section-5 .action-button {
 bottom: 18%;
+}
+/*===============     SECTION 6    ======================*/
+.option-años{
+margin:30px 0px 15px;
+}
+.option-años ul{
+display: flex;
+list-style: none;
+}
+.option-años ul li a{
+width: 50px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #F3F3F3;
+box-sizing: border-box;
+border-radius: 8px;
+margin-right: 20px; 
+}
+.option-años ul li .active{
+border:1px solid #b3c12e;
+background-color: #ffffff !important;
+color: #000000 !important;
+}
+.siguiente a{
+font-size: 19px;
+font-weight: 700;
+color: #000000;
+}
+/*===============     SECTION 8    ======================*/
+  #msform .containers .container-form .form-8{
+width: 499px;
+height: 654px;
+background: #FFFFFF;
+border-radius: 16px;
+padding: 43px 50px;
+margin: auto;
+position: absolute;
+right: 10%;
+top: 10%;
+}
+#section-8 .action-button{
+    bottom: 24%;
 }
 /*===============     SECTION 9    ======================*/       
 #msform .containers .container-form .form-9{
@@ -423,6 +491,21 @@ opacity: inherit;
 #section-9 .action-button {
 bottom: 24%;
 }
+/*===============     SECTION 10     ======================*/
+#msform .containers .container-form .form-10{
+width: 499px;
+height: 420px;
+background: #FFFFFF;
+border-radius: 16px;
+padding: 43px 50px;
+margin: auto;
+position: absolute;
+right: 10%;
+top: 20%;
+} 
+#section-10 .action-button{
+  bottom: 38%;
+} 
 /*===============     SECTION 11     ======================*/
 #msform .containers .container-form .form-11{
 width: 499px;
@@ -479,7 +562,26 @@ margin: auto;
 position: absolute;
 right: 10%;
 top: 8%;
-}  
+} 
+
+.clasificado ul li {
+width: 182px;
+background: #FFFFFF;
+border: 1px solid #F3F3F3;
+color: #222222;
+box-sizing: border-box;
+border-radius: 8px;
+margin-bottom: 20px;
+text-align: initial;
+padding: 16px;
+margin-right: 15px;
+}
+.clasificado ul .is-active-cla{
+border: 1px solid #b3c12e;
+}
+#section-12 .action-button {
+    bottom: 18%;
+} 
 /*===============     SECTION 13     ======================*/
 #msform .containers .container-form .form-13{
 width: 499px;
@@ -968,19 +1070,31 @@ height: 56px;
     #section-4 .action-button {
     bottom: 1%;
     }
+    .option-años ul li a {
+    width: 45px !important;
+    height: 44px !important;
+    margin-right: 7px !important;
+}
+  .siguiente a {
+      margin-left: 13px;
+  }
  /*====== MEDIA FIELDSET 5 =====*/    
       #msform .containers .container-form .form-5 {
     right: 15px;
     width: 93%;
     top: 27%;
     padding: 43px 25px;
-    height: 460px;
-    }        
-}
-@media (min-height: 560px) {
-    .fondo{
-      height: 900px !important;
+  height: 660px;
     }
+    #section-5 .action-button {
+    bottom: -38%;
+}    
+     .fondo{
+      height: 900px !important;
+    }    
+}
+@media (max-height: 560px) {
+   
 
     .section-1 .action-button{
          bottom: 11% !important;
@@ -989,6 +1103,6 @@ height: 56px;
         bottom: -30%;
     }
     #section-3 .action-button {
-    bottom: -44%;
+    bottom: -46%;
 }
 }
