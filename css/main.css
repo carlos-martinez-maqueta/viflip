@@ -484,7 +484,7 @@ opacity: 0.5;
 }
 .contenedor{
   width: 100% !important;
-  margin: 0px;
+ margin: 0px !important;
 }
 .logo-section1{
   display: none;
