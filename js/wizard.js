@@ -32,7 +32,7 @@ $(".next").click(function(){
       });
 			next_fs.css({'left': left, 'opacity': opacity,'display': 'block'});
 		}, 
-		duration: 300, 
+		duration: 000, 
 		complete: function(){
 			current_fs.hide();
 			animating = false;
@@ -69,7 +69,7 @@ $(".previous").click(function(){
 		});
 			previous_fs.css({'opacity': opacity,'display': 'block'});
 		}, 
-		duration: 300, 
+		duration: 000, 
 		complete: function(){
 			current_fs.hide();
 			animating = false;
