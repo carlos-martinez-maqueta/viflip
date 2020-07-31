@@ -291,7 +291,7 @@ background: #f2f5d6;
         color: #000000;
       }
       .valores {
-    width: 614px;
+        width: 543px;
     height: 0px;
     /* position: absolute; */
     left: 28%;
@@ -316,7 +316,7 @@ background: #F1E8F7;
 border-radius: 16px;
 text-align: center;
 padding: 20px;
-margin: 0px 50px;
+margin: 0px 45px;
 }
 .valor-e span{
   font-style: normal;

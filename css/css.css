@@ -119,21 +119,30 @@ opacity: 0.6;
         color: #ffffff;
           right: 15%;
 }
-.men{
-     position: absolute;
-    top: 10%;
-    left:20%;
-    width: 300px;
+.men {
+    width: 1140px;
+    margin: 0px;
+    padding: 0px 20px;
+    display: flex;
 }
 .men .acti{
     display: flex;
+    align-items: center;
+    width: 50%;
+    top: 19px;
+    position: relative;
+}
+.men .img-form{
+    position: relative;
+    top: 78px;
+    right: 68px;
 }
 .men .acti h1{
-  font-family: Montserrat;
 font-style: normal;
-font-weight: 600;
-font-size: 46px;
-
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+margin-bottom: 0px;
 color: #000000;
 }
 .men .acti img{
@@ -255,14 +264,14 @@ margin-bottom: 35px;
 /*===============     SECTION 3    ======================*/
 #msform .containers .container-form .form-3 {
     width: 499px;
-    height: 784px;
+    height: 699px;
     background: #FFFFFF;
     border-radius: 16px;
     padding: 43px 50px;
     margin: auto;
     position: relative;
     right: 174px;
-    top: 64px;
+    top: 21px;
 }
 .inputs-3{
 margin:35px 0px;
@@ -291,20 +300,21 @@ right: 11%;
 .inputs-3 .active{
 border: 1px solid #BDCC31;
 }
-#section-3 .action-button{
-bottom:15%;
+#section-3 .action-button {
+    bottom: 70px;
+    left: 60%;
 }
 /*===============     SECTION 4    ======================*/
 #msform .containers .container-form .form-4{
-width: 499px;
-height: 456px;
-background: #FFFFFF;
-border-radius: 16px;
-padding: 43px 50px;
-margin: auto;
-position: absolute;
-right: 10%;
-top: 30%;
+    width: 499px;
+    height: 456px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 43px 50px;
+    margin: auto;
+    position: relative;
+    right: 43%;
+    top: -30px;
 }
 .buttons-numer{
 width: 85%;
@@ -878,9 +888,18 @@ height: 56px;
         /*==============================   MEDIA  ==============================*/
 @media (min-width: 4096px){
 .men{
-      left: 15%;
+    /* left: 15%; */
+    position: absolute;
+    top: 30%;
+}
+.men .acti{
+      top: -3px;
+}
+.men .img-form{
+  top: -8px;
 }
 
+}
 @media (max-width: 1080px) {
 
 }
