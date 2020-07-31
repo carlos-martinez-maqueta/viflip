@@ -253,16 +253,16 @@ margin-bottom: 35px;
     left: 58%;
 }
 /*===============     SECTION 3    ======================*/
-#msform .containers .container-form .form-3{
-width: 499px;
-height: 784px;
-background: #FFFFFF;
-border-radius: 16px;
-padding: 43px 50px;
-margin: auto;
-position: absolute;
-right: 10%;
-top: 6%;
+#msform .containers .container-form .form-3 {
+    width: 499px;
+    height: 784px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 43px 50px;
+    margin: auto;
+    position: relative;
+    right: 174px;
+    top: 64px;
 }
 .inputs-3{
 margin:35px 0px;
