@@ -137,6 +137,13 @@ align-items: center;
 z-index: 99999;
 position: relative;
 } 
+.contenedor:hover{
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 424px;
+  height: 162px;
+  margin: 0px auto 0px 73px;
+}
 .contenedor .icon{
 width: 80px;
 height: 80px;
@@ -168,16 +175,16 @@ background: #f2f5d6;
 }
 
       /**/
-.inmobiliaria-info {
+.inmobiliaria-info{
     /* width: 385px; */
-    height: 386px;
+    height: 297px;
     background: #ffffff;
     border-radius: 8px;
     float: right;
-    padding-top: 54px;
+    padding-top: 32px;
     z-index: 99;
     position: relative;
-
+    margin-top: 35px;
 }
       .inmobiliaria-info-cont{
        width: 318px;
@@ -283,24 +290,24 @@ background: #f2f5d6;
         text-align: center;
         color: #000000;
       }
-      .valores{
-        width: 614px;
-        height: 180px;
-        position: absolute;
-        left: 28%;
-      }
+      .valores {
+    width: 614px;
+    height: 0px;
+    /* position: absolute; */
+    left: 28%;
+    margin: auto;
+}
       .valores .contain{
     position: relative;
-    top: 45px;
+    top: -3px;
     width: 100%;
-    height: 100%;
+    height: 128px;
     background-color: #ffffff;
     z-index: 999;
     border-radius: 8px;
     display: flex;
     padding: 48px 20px;
     align-items: center;
-
 }
 .icono-valor{
   width: 80px;
@@ -398,19 +405,77 @@ opacity: 0.5;
 }
 
 @media (max-width: 768px) {
+  h3{
+    font-size: 23px;
+  }
+ .cont-video {
+    width: 94%;
+    height: 180px;
+}
+  .position-puntos{
+    display: none;
+  }
+  .position-vector{
+    display: none;
+  }
+  .options-plan {
+    padding-top: 0px;
+}
+.contenedor{
+  width: 100% !important;
+  margin: 0px !important;
+}
 
+.logo-section1{
+  display: none;
+}
+.title-inmobiliaria {
+    position: absolute;
+    left: 92px;
+    top: -52px;
+}
+.inmobiliaria-info{
+      width: 100%;
+    padding: 26px 24px;
+    height: 281px;
+    margin-top: 30px;
+}
+.inmobiliaria-info-cont {
+    width: 100%;
+}
+.img-position{
+  display: none;
+}
+.valores{
+    width: 100%;
+    position: relative;
+    left: 0px;
+    height: 128px;
+}
+.icono-valor{
+  margin: 0px 11px;
+}
+.valor-e span{
+  font-size: 40px;
+}
+.banner-numer{
+  display: none;
+}
+.button-p {
+    position: relative;
+    right: -197px;
+    top: -103px;
+    z-index: 9999;
+}
 }
 
 @media (max-width: 540px) {
-
-
-}
-@media (max-width: 480px) {
   h3{
     font-size: 23px;
   }
   .cont-video {
     width: 90%;
+    height: 180px;
   }
   .position-puntos{
     display: none;
@@ -423,6 +488,7 @@ opacity: 0.5;
 }
 .contenedor{
   width: 100% !important;
+  margin: 0px !important;
 }
 .logo-section1{
   display: none;
@@ -448,6 +514,7 @@ opacity: 0.5;
     width: 100%;
     position: relative;
     left: 0px;
+    height: 128px;
 }
 .icono-valor{
   margin: 0px 11px;
@@ -460,8 +527,72 @@ opacity: 0.5;
 }
 .button-p {
     position: relative;
-    right: -140px;
-    top: -125px;
+    right: -197px;
+    top: -103px;
+    z-index: 9999;
+}
+
+}
+@media (max-width: 480px) {
+  h3{
+    font-size: 23px;
+  }
+  .cont-video {
+    width: 90%;
+    height: 180px;
+  }
+  .position-puntos{
+    display: none;
+  }
+  .position-vector{
+    display: none;
+  }
+  .options-plan {
+    padding-top: 0px;
+}
+.contenedor{
+  width: 100% !important;
+  margin: 0px !important;
+}
+.logo-section1{
+  display: none;
+}
+.title-inmobiliaria {
+    position: absolute;
+    left: 92px;
+    top: -52px;
+}
+.inmobiliaria-info{
+      width: 100%;
+    padding: 26px 24px;
+    height: 281px;
+    margin-top: 30px;
+}
+.inmobiliaria-info-cont {
+    width: 100%;
+}
+.img-position{
+  display: none;
+}
+.valores{
+    width: 100%;
+    position: relative;
+    left: 0px;
+    height: 128px;
+}
+.icono-valor{
+  margin: 0px 11px;
+}
+.valor-e span{
+  font-size: 40px;
+}
+.banner-numer{
+  display: none;
+}
+.button-p {
+    position: relative;
+    right: -197px;
+    top: -103px;
     z-index: 9999;
 }
 }

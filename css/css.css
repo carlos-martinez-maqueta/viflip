@@ -15,21 +15,18 @@ body{
 #msform {
     width: 100%;
     height: 100%;
+    align-items: center;
 }
 #msform fieldset {
     border: 0 none;
-    height: 100%;
 }
-#msform .containers{
+#msform .containers {
     display: flex;
     height: 100%;
+    align-items: center;
 }
 #msform .containers .container-img{
 width: 70%;
-}
-#msform .containers .container-img img {
-    max-width: 100%;
-    height: 100%;
 }
 #msform .containers .container-form{
 width: 30%;
@@ -41,10 +38,9 @@ width: 30%;
     border-radius: 16px;
     padding: 43px 50px;
     margin: auto;
-    /* left: -165px; */
-    position: absolute;
-    right: 10%;
-    top: 26%;
+    position: relative;
+    right: 220px;
+    bottom: 31px;
 }
 .container-form .form p{
     font-family: Roboto;
@@ -114,8 +110,7 @@ opacity: 0.6;
 .previous{
     border: 1px solid #000000 !important;
     width: 144px;
-    background-color: white;
-    right: 34%;
+      background-color: white;
 }
 .next{
         width: 215px;
@@ -154,11 +149,13 @@ color: #000000;
 
 /*buttons*/
 #msform .action-button {
-    position: absolute;
     border-radius: 16px;
     height: 56px;
     font-size: 18px;
-    bottom: 34%;    
+    position: relative;
+    left: 55%;
+    margin-right: 25px;
+    bottom: 202px;
 }
 
 /*headings*/
@@ -227,15 +224,15 @@ color: #000000;
 
 /*===============     SECTION 2    ======================*/
 #msform .containers .container-form .form-2 {
-width: 499px;
-height: 473px;
-background: #FFFFFF;
-border-radius: 16px;
-padding: 43px 50px;
-margin: auto;
-position: absolute;
-right: 10%;
-top: 26%;
+    width: 499px;
+    height: 473px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 43px 50px;
+    margin: auto;
+    position: relative;
+    right: 54%;
+    top: -67px;
 }
 .inputs {
 margin-bottom: 15px;
@@ -252,7 +249,8 @@ margin-bottom: 35px;
 }
 
 #section-2 .action-button{
-bottom: 27%;
+    bottom: 198px;
+    left: 58%;
 }
 /*===============     SECTION 3    ======================*/
 #msform .containers .container-form .form-3{
@@ -881,12 +879,6 @@ height: 56px;
 @media (min-width: 4096px){
 .men{
       left: 15%;
-}
-#msform .containers .container-form .form {
-    width: 900px;
-    height: 700px;
-    right: 28%;
-    }
 }
 
 @media (max-width: 1080px) {
